@@ -1,0 +1,35 @@
+{
+  "name": "markdown-preview",
+  "version": "1.0.0",
+  "description": "node实现markdown实时预览",
+  "main": "index.js",
+  "dependencies": {
+    "markdown-it": "^8.4.1",
+    "open": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzzs/node-markdown-preview.git"
+  },
+  "author": {
+    "name": "小雷",
+    "email": "863837949@qq.com",
+    "url": "https://github.com/zzzs"
+  },
+  "keywords": [
+    "node",
+    "markdown",
+    "markdown-it",
+    "preview",
+    "open"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzzs/node-markdown-preview/issues"
+  },
+  "homepage": "https://github.com/zzzs/node-markdown-preview#readme"
+}

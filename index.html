@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>__FILENAME__</title>
+</head>
+<body>
+</body>
+<script>
+    if(typeof(EventSource) !== 'undefined') {
+        var source = new EventSource("http://127.0.0.1:__PORT__/message");
+        source.onmessage=function(event)
+        {
+            document.body.innerHTML = event.data;
+        };
+    } else {
+        alert('Sorry! No server-sent events support..');
+    }
+</script>
+</html>
