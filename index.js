@@ -6,7 +6,7 @@
  */
 const http = require('http');
 const fs = require('fs');
-const open = require("open");
+const opn = require("opn");
 const md = require('markdown-it')();
 
 const params = process.argv.splice(2);
@@ -62,4 +62,4 @@ http.createServer(function(request, response){
 }).listen(port);
 
 // 自动打开浏览器
-open('http://127.0.0.1:' + port);
+opn('http://127.0.0.1:' + port);

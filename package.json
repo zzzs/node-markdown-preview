@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "markdown-it": "^8.4.1",
-    "open": "0.0.5"
+    "opn": "^5.3.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -25,7 +25,7 @@
     "markdown",
     "markdown-it",
     "preview",
-    "open"
+    "opn"
   ],
   "license": "ISC",
   "bugs": {
