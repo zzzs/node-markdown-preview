@@ -1,5 +1,5 @@
 /*
-    markdown实时预览(热加载)
+    node小工具：markdown实时预览(热加载)
     node index.js [mdfile] [port]
     mdfile: 指定md文件, 必选
     port: 服务端口, 可选, 默认8888
